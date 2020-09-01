@@ -1,0 +1,84 @@
+body
+{
+background-image: url("https://cdn.pixabay.com/photo/2017/08/28/19/15/background-2691002_960_720.jpg");
+background-position:center;
+background-origin:center-box;
+background-repeat:no-repeat;
+background-size: cover;
+min-height:100vh;
+font-family: 'Noto Sans', sans-serif;
+}
+h1
+{
+color:green;
+text-transform:uppercase;
+margin: -20px 0 70px 0;
+display: block;
+text-align: center;
+}
+.main
+{
+	position:absolute;
+	left:40%;
+	top:35%;
+	transform:translate(-30%,-50%);
+	background-color:#C0C0C0;
+	border-radius:40px;
+	padding:30px 60px;
+}
+.one
+{
+	position:relative;
+	
+	margin-bottom:25px;
+}
+.one label
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#DCDCDC;
+	pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.one input
+{
+	border:0;
+	border-bottom:1px solid #555; 
+	background:transparent;
+	width:100%;
+	padding:8px 0 5px 0;
+	font-size:16px;
+	color:#000000;
+}
+.one input:focus
+{
+	border:none;
+	outline:none;
+	border-bottom:1px solid red;
+}
+.one input:focus ~ label,
+.one input:valid ~ label
+{
+	top:-12px;
+	font-size:12px;
+}
+.for
+{
+	color:#fff;
+	background-color:green;
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:25px;
+	border-radius:20px;
+	cursor:pointer;
+	position:relative;
+	justify-content: center;
+    align-items: center;
+	top:-20px;
+	right:-40px;
+}
